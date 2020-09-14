@@ -22,7 +22,6 @@ public class GameResource {
 	public ResponseEntity <List<GameDTO>> findAll(){
 		List<GameDTO> list = service.findAll();
 		return ResponseEntity.ok().body(list);
-	}
-
-}
+		}
+} 
  
