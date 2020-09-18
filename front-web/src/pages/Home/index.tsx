@@ -17,16 +17,14 @@ const Home = () => (
                 <div className="home-actions">
                     <button className="home-btn">
                         QUERO SABER QUAIS SÃO!
-                </button>
+                    </button>
                     <div className="home-btn-icon">
                         <ArrowIcon />
                     </div>
                 </div>
             </Link>
         </div>
-        <div>
-            <GamerImage className="home-image" />
-        </div>
+        <GamerImage className="home-image" />
     </div>
 );
 
