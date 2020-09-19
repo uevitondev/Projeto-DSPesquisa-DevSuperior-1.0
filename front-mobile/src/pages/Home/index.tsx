@@ -2,15 +2,20 @@ import React from "react";
 import { FontAwesome5 as Icon } from "@expo/vector-icons";
 import { Text, StyleSheet, View, Image, Alert} from "react-native";
 import { RectButton} from "react-native-gesture-handler";
+import Header from "../../components/Header";
+import { useNavigation } from "@react-navigation/native";
 
 const Home = () => {
 
-    const handleOnePress = () => {
-        Alert.alert("voce clicou no botao")
-    }
+  const navigation = useNavigation();
+
+  const handleOnePress = () => {
+        navigation.navigate("CreateRecord");
+  }
 
     return (
         <>
+            <Header />
             <View style={styles.container}>
                 <Image
                     source={require("../../assets/gamer.png")}
