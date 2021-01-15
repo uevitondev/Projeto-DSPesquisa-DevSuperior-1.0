@@ -64,10 +64,10 @@ git clone https://github.com/uevitontech/Projeto-DSPesquisa-DevSuperior-1.0
 cd front-web
 
 # instalar dependências
-yarn install
+npm install
 
 # executar o projeto
-yarn start
+npm start
 ```
 
 # Autor
